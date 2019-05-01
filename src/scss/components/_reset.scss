@@ -1,17 +1,17 @@
-.footer {
-  background: lighten($color: black, $amount: 80%);
+.reset {
+  background: #e96a6a;
   display: flex;
   font-family: 'Source Sans Pro Light', sans-serif;
+  font-size: 2em;
   font-weight: 100;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  height: 25%;
+  justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
-
+  
   a {
     border-bottom: 1px dotted;
+    cursor: pointer;
     color: var(--black);
     text-decoration: none;
   }

@@ -79,7 +79,8 @@
 .rotate {
   animation-name: rotate;
   animation-delay: .5s;
-  animation-duration: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(.69,-0.03,.36,.99);
   animation-fill-mode: forwards;
 }

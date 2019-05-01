@@ -339,10 +339,10 @@ const drawRounding = (data_step_attribute, data) => {
         .attr('y', (d,i) => {
           switch (i) {
             case 0: return svgDimensions.height * .03;
-            case 1: return svgDimensions.height * .05;
-            case 2: return svgDimensions.height * .85;
-            case 3: return svgDimensions.height * .87;
-            case 4: return svgDimensions.height * .89;
+            case 1: return svgDimensions.height * .06;
+            case 2: return svgDimensions.height * .91;
+            case 3: return svgDimensions.height * .94;
+            case 4: return svgDimensions.height * .97;
           }
           // if (i === 0 || i === 1) {
           //   return svgDimensions.height * .03 + i*20 //pin first two to top of svg

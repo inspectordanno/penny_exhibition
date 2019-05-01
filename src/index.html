@@ -12,28 +12,6 @@
 
 <body>
 
-  <!-- Facebook SDK -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-
-  <!-- Twitter SDK -->
-  <script>window.twttr = (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0],
-        t = window.twttr || {};
-      if (d.getElementById(id)) return t;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    
-      t._e = [];
-      t.ready = function(f) {
-        t._e.push(f);
-      };
-    
-      return t;
-    }(document, "script", "twitter-wjs"));</script>
-
 <div class="heading">
   <div class="heading__image">
     <img src="./images/penny_medium.png" alt="penny" id="penny_img" class="rotate">
@@ -353,22 +331,20 @@
 </article>
 
 <footer class="footer">
-  <div class="socials">
-  <span>Did this make cents?</span>
-  <span class="callout">Tell the world.</span>
-  <div class="fb-share-button" data-href="https://penny.fyi" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpenny.fyi%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Check out my thesis project: Why the U.S. should eliminate the penny, explained with DATA VISUALIZATION!" data-url="https://penny.fyi" data-via="inspectordanno" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
   <p>
-    Submitted as part of a thesis for the <a href="https://www.northeastern.edu/visualization/">Master's of Information Design and Visualization at Northeastern University</a>.
+    Submitted as part of a thesis for the Master's of Information Design and Visualization at Northeastern University</a>.
   </p>
   <p>
     Thank you so much to all the faculty, staff, and students. I couldn't have done this without you.
   </p>
   <p>
-    <a href="./attribution.txt">Data attribution and credits</a>
+    <a href="./attribution.txt" target="_blank" >Data attribution and credits</a>
   </p>
 </footer>
+
+<div class="reset">
+  <p><a class="handleReset">If you are done, please click this text to reset the page for the next viewer.</a></p>
+</div>
 
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
