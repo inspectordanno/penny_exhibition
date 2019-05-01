@@ -1,0 +1,45 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:marharyta/webpack-boilerplate.git",
+  "author": "Margarita Obraztsova <marharyta.obraztsova@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "d3": "^5.7.0",
+    "d3-array": "^2.0.2",
+    "d3-v4-grid": "^2.0.2",
+    "intersection-observer": "^0.5.1",
+    "mathjs": "^5.4.2",
+    "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
+    "scrollama": "2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^8.6.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-md5-hash": "^0.0.6",
+    "webpack-merge": "^4.1.5"
+  }
+}

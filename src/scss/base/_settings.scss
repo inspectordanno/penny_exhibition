@@ -1,0 +1,23 @@
+//colors
+:root {
+  --black: #272727;
+  --buyingPowerSilver: #7f7f7f;
+  --copper: #8d5433;
+}
+
+//fonts
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik|Crimson+Text|Hind|Source+Sans+Pro|Libre+Franklin|Roboto');
+
+//responsive
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  html { font-size: 14px; }
+}
+@media (max-width: 1000px) {
+  html { font-size: 12px; }
+}

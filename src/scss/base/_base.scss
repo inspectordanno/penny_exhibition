@@ -1,0 +1,94 @@
+//border box
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+//default styles
+
+html,body,h1,h2,h3,h4,p,div{
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  height: 100%;
+}
+
+//scroll and graphics containers
+
+.scroll_container {
+  background-color: lighten($color: black, $amount: 97.5%);
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.graphic_container {
+  flex: 5;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10vh;
+  align-self: start;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.text {
+  background: lighten($color: black, $amount: 30%);
+  flex: 2;
+  // position: relative;
+}
+
+.step {
+  color: lighten($color: black, $amount: 95%);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.section_title {
+  color: lighten($color: black, $amount: 95%);
+  padding-top: 10%;
+}
+
+.intro {
+  padding-top: 20%;
+}
+
+.paragraph {
+  padding-bottom: 50%;
+
+  p {
+    margin-top: 10%;
+  }
+}
+
+// responsive
+
+@media (max-width: 768px) {
+  .scroll_container {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+  }
+
+  .graphic_container {
+    width: 100%;
+  }
+
+  .text {
+    background: none;
+    margin: 0 auto;
+    position: relative;   
+  }
+
+  .step p {
+      background: gray;
+      padding: 2%;
+      margin-top: 2%;
+    }
+}
+
+

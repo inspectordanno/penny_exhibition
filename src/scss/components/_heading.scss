@@ -1,0 +1,94 @@
+//heading
+
+.heading {
+  background: lighten($color: black, $amount: 30%);
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: auto auto;
+  padding-top: 5%;
+}
+
+#penny_img {
+  width: 450px;
+  height: 450px;
+}
+
+.titles {
+  color: lighten($color: black, $amount: 95%);
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  justify-self: center;
+}
+
+.headlines__title {
+  font-family: 'Libre Franklin Black', 'Franklin Gothic', 'Arial', sans-serif;
+  font-size: 8em;
+  line-height: 90%;
+}
+
+.titles__subtitle {
+  font-family: 'Crimson Text', serif;
+  font-size: 4em;
+  margin-top: 3%;
+}
+
+.titles__byline {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.heading__image {
+  justify-self: end;
+}
+
+.hook {
+  background: lighten($color: black, $amount: 30%);
+  color: lighten($color: black, $amount: 95%);
+  display: flex;
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+  justify-content: center;
+  padding: 5% 20% 5% 20%;
+}
+
+//penny animation
+
+@keyframes rotate {
+  0% {
+    transform-origin: center;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+
+  50% {
+    filter: grayscale(0%);
+  }
+
+  100% {
+    filter: grayscale(100%);
+  }
+  
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-delay: .5s;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.69,-0.03,.36,.99);
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+

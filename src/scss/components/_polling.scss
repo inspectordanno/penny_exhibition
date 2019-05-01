@@ -1,0 +1,87 @@
+//text
+
+.polling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2.5% auto;
+
+  p {
+    margin: 1% 30%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+  }
+}
+
+//bar chart
+
+.polling_penny {
+  // color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 2.5%;
+  // margin-bottom: 2.5%;
+  padding: 50% auto;
+}
+
+.polling_header {
+  font-size: 1.25em;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.polling_bar_chart {
+  width: 30%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.opinion_group {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 2.5em;
+  width: 3em;
+  align-items: center;
+}
+
+.opinion_bar {
+  width: 3em;
+  order: 1;
+  // box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.opinion_label {
+  color: var(--buyingPowerSilver);
+  order: 0;
+  // width: 3em;
+  font-size: .85em;
+  margin-top: .75em;
+  text-align: center;
+  // text-anchor: middle;
+}
+
+.opinion_value {
+  color: var(--buyingPowerSilver);
+  order: 2;
+  font-size: 1em;
+  margin-bottom: .25em;
+}
+
+.oppose_strongly {
+  .opinion_bar {
+    background-color: black !important;
+  }
+
+  .opinion_label {
+    color: black !important;
+  }
+
+  .opinion_value {
+    color: black !important;
+  }
+}

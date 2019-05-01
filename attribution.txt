@@ -1,0 +1,54 @@
+Introduction / Polling:
+
+YouGov
+http://cdn.yougov.com/cumulus_uploads/document/k7ogztxiwp/tabs_HP_pennies_20140110.pdf
+
+1. Getting rid of the penny won't harm consumers or businesses:
+
+Many thanks to Raymond Lombra and Robert Whaples for providing the data used in their papers:
+Raymond Lombra
+https://www.jstor.org/stable/40326060#metadata_info_tab_contents
+Robert Whaples
+http://web.holycross.edu/RePEc/eej/Archive/Volume33/V33N1P139_146.pdf
+
+2. The penny costs the government millions each year:
+
+LiveScience
+https://www.livescience.com/32401-whats-a-penny-made-of.html
+Quartz
+https://www.theatlas.com/charts/r1Yc_aQGQ
+Coin News
+http://www.coinnews.net/2018/02/26/penny-costs-1-82-cents-to-make-in-2017/
+Coin Update
+http://news.coinupdate.com/us-mint-cost-to-produce-the-penny-and-nickel-0137/
+
+3. Pennies have no value:
+
+Missouri Libraries: prices and wages by decade
+https://libraryguides.missouri.edu/pricesandwages
+Coffee by AlePio from the Noun Project
+Chocolate by Korokoro from the Noun Project
+Newspaper by unlimicon from the Noun Project
+Stamp by Setyo Ari Wibowo from the Noun Project
+Bread by Artem Kovyazin from the Noun Project
+
+D3 flexbox layout:
+
+Amber Thomas, The Pudding 
+https://pudding.cool/process/flexbox-layout/
+
+Thanks to the following readers and faculty members who helped me with my thesis:
+
+Steven Braun
+Pedro Cruz
+James D'Angelo
+Tad Hirsch
+Paul Kahn
+Dietmar Offenhuber
+Antonio Solano
+
+Thanks to all of my classmates for helping me get through this.
+
+I love you Mom, Dad, and Mom-mom.
+
+

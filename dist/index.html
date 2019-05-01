@@ -1,0 +1,374 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.06902bd8739960cc8a6f.css?3b3576b923a0741c3a47">
+  <title>In Pennies We Trust: But Should We?</title>
+  <meta property="og:url"           content="https://pennies.wtf" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="In Pennies We Trust: But Should We?" />
+  <meta property="og:description"   content="A data visualization about eliminating the penny." />
+  <meta property="og:image"         content="https://pennies.wtf/images/penny_medium.png" />
+</head>
+
+<body>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+  <!-- Twitter SDK -->
+  <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+    
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+
+<div class="heading">
+  <div class="heading__image">
+    <img src="./images/penny_medium.png" alt="penny" id="penny_img" class="rotate">
+  </div>
+  <div class="titles">
+    <div class="titles__headlines">
+      <h1 class="headlines__title">In Pennies</h1>
+      <h1 class="headlines__title">We Trust</h1>
+    </div>
+    <h2 class="titles__subtitle">But Should We?</h2>
+    <h3 class="titles__byline">by Dan Spector</h3>
+  </div>
+</div>
+
+<div class="hook">
+  Millions of Americans still love the penny.
+  <br> But are they aware of its drawbacks?
+</div>
+
+<article class="polling">
+  <p>
+    The penny is a useless yet beloved token of American nostalgia. 
+    Although the coin is not accepted in vending machines or parking meters, and many cashiers ignore it, 
+    Americans don't want to retire the penny. In a 2011 Huffington Post / YouGov poll,
+    a plurality of subjects strongly opposed getting rid of the coin:
+  </p>
+
+  <div class="polling_penny">
+    <div class="polling_header">
+      Would you favor or oppose eliminating the penny coin,
+      <br> so that the lowest valued coin available would be the nickel?
+    </div>
+    <div class="polling_bar_chart"></div>
+  </div>
+
+  <!-- <p>
+    Pennies are so worthless that they can often be found sunbathing on the sidewalk.
+    From a purely economic perspective, people would be better served by letting them remain on the ground.
+    Yet a resounding majority of Americans choose to pick them up.
+  </p>
+
+  <div class="waffle_container">
+
+    <div class="waffle_header">
+      Which are you more likely to do when you see a penny on the ground?
+    </div>
+
+    <div class="waffle">
+      <div class="waffle_chart">
+      </div>
+      <div class="waffle_legend">
+        <div class="waffle_subheader">Each penny represents a poll respondent.</div>
+        <img src="./images/penny_medium.png" alt="penny" id="pick_up" class="penny_legend">
+        <img src="./images/penny_medium.png" alt="penny" id="ground" class="penny_legend">
+        <img src="./images/penny_medium.png" alt="penny" id="not_sure" class="penny_legend">
+        <div id="opinion_pick_up" class="opinion">Pick it up</div>
+        <div id="opinion_ground" class="opinion">Leave it on the ground</div>
+        <div id="opinion_not_sure" class="opinion">Not sure</div>
+        <div id="percent_pick_up" class="percent">71%</div>
+        <div id="percent_ground" class="percent">21%</div>
+        <div id="percent_not_sure" class="percent">8%</div>
+      </div>
+    </div>
+
+  </div>
+
+  <p>
+    To be fair, there is something about the penny that evokes fond memories for many people. 
+    Maybe it’s the good luck associated with finding one heads up,
+    or the distant recollection of going to the drugstore and ordering a root beer float with the change in your pocket.
+  </p>
+
+  <p>
+    But the penny has no place in modern society. Did you know it costs more than one cent to make a penny? 
+    That the U.S. Treasury loses millions on them each year? 
+    Price inflation has rendered pennies valueless. If they were eliminated, 
+    evidence suggests that consumers and businesses would be unaffected.
+    And lastly, many other countries, such as Australia, Canada, and Switzerland, have gotten rid of them successfully.
+  </p> -->
+
+  <p> 
+    But the penny has no place in modern society. Many other countries, such as Australia, Canada, and Switzerland, 
+    have gotten rid of them successfully. Read on to experience the visual arguments for eliminating the penny.
+  </p>
+</article>
+
+<div class="scroll_container" id="container_rounding">
+  <article class='text'>
+    <div class='step section_title erase'>
+      <h2>1. Getting rid of the penny won't harm consumers or businesses.</h2>
+    </div>
+    <div class="step paragraph intro" data-step-rounding="1">
+      <p>
+        In a penniless world, the unit of a cent ($0.01) would not go away. Credit cards and digital payment systems
+        would still be charged the exact price, down to the cent.
+      </p>
+
+      <p>
+        But cash transactions would be a different story. Because pennies wouldn't exist, all transactions paid for
+        in cash
+        would be rounded to the nearest nickel. This means a sale could only end in a 0 or a 5.
+      </p>
+
+      <p>
+        In some prices, the nearest nickel is cheaper than the price, and the price gets rounded down.
+        This results in a gain to the customer, because they would be paying less than the sale originally.
+        A customer can gain either <span class="one_cent_green">$0.01 (light green)</span> or <span class="two_cent_green">$0.02
+          (dark green)</span> from rounding.
+        In other instances, the nearest nickel is higher, and the price gets rounded up,
+        resulting in a benefit to the store. A store can also gain either <span class="one_cent_red">$0.01 (light
+          red)</span> or <span class="two_cent_red">$0.02 (dark red)</span>
+        from rounding.
+      </p>
+      <p>
+        Finally, there are prices that already end in a 0 or 5 and <span class="no_rounding">don't need to be rounded
+          at all (light grey)</span>.
+      </p>
+    </div>
+    <div class="step paragraph" data-step-rounding="2">
+      <p>
+        These are a series of one hundred items, sampled from a real life dataset containing over three
+        thousand products from a convenience store chain. 
+        <span class="item_blue">Each rectangle represents the price of one item.</span>
+        The data was supplied by Professor Raymond Lombra, a supporter of keeping the penny.
+      </p>
+    </div>
+    <div class="step paragraph" data-step-rounding="3">
+      <p>
+        Lombra argues that because most items end in a 9, stores are most likely to benefit from a penniless world.
+        In the graphic at right, a <span class="one_cent_red">store would gain $0.01 from each product that is light
+          red</span>.
+      </p>
+    </div>
+    <div class="step paragraph" data-step-rounding="4">
+      <p>
+        A penny does not mean much on the individual level, but consider the collective implications of eliminating
+        the penny.
+        Merchants would gain millions, while customers would lose out.
+      </p>
+    </div>
+    <div class="step paragraph conclusion" data-step-rounding="5">
+      <p>
+        The mean of all the rounding outcomes in the distribution is <span class="one_cent_red">$0.01 in favor of the
+          store</span>.
+        This means that in a penniless economy, on average, one could expect most individual items to be rounded up
+        $0.01.
+      </p>
+    </div>
+    <div class="step paragraph" data-step-rounding="6">
+      <p>
+        However, there is an important caveat of rounding that serves a powerful counterpoint to Lombra’s model.
+        It is evident that when people purchase goods as a store, they are not buying one item at a time.
+        Rather, a transaction can consist of multiple items, and may also include tax.
+      </p>
+      <p>
+        At right is a collection of one hundred real <span class="transaction_lavender">transactions</span> from another convenience store chain, sampled in
+        real-time from a database.
+        <span class="transaction_lavender">These transactions are composed of one or more items, and may or may not include tax.</span>
+        In short, this data is more realistic representation of how people buy things.
+        Professor Robert Whaples, a proponent of eliminating the penny, provided this data.
+      </p>
+    </div>
+    <div class="step paragraph" data-step-rounding="7">
+      <p>
+        Transactions have ending numbers that are much more varied than individual items.
+        The colors are much more diverse than the previous item distribution, indicating a mixture
+        of rounding outcomes.
+      </p>
+    </div>
+    <div class="step paragraph" data-step-rounding="8">
+      <p>When the transactions are analyzed as a whole, it becomes even more clear that the bias towards stores has
+        disappeared.
+        There is a healthy proportion of transactions that benefit both stores and consumers,
+        in addition to prices that do not get rounded.
+      </p>
+    </div>
+    <div class="step paragraph conclusion" data-step-rounding="9">
+      <p>
+        Furthermore, the mean of this distribution, rounded to the nearest nickel, is <span class="no_rounding">$0.00</span>.
+        This indicates that an “average” transaction would undergo <span class="no_rounding">no rounding</span>.
+        In practice, because the distribution is so diverse, there would be a wide variety of rounding outcomes.
+        But as a whole, rounding would balance out. Therefore, eliminating the penny and rounding to the nearest
+        nickel would have a nil effect. 
+        Because transactions are so varied, it would be very hard for businesses to price-fix.
+        In countries that have eliminated the penny (such as Canada), legislation mandates that it is only the final transaction total that can be rounded, so customers would not have to worry about stores rounding every item.
+        <!-- This is a great argument for eliminating the penny. -->
+      </p>
+    </div>
+  </article>
+  <div class='graphic_container' id='graphic_rounding'>
+  </div>
+</div>
+
+<div class='scroll_container' id="container_seigniorage">
+  <article class="text">
+    <div class='step section_title'>
+      <h2>2. The penny costs the federal government millions of dollars each year.</h2>
+    </div>
+    <div class='step paragraph intro' data-step-seigniorage='composition'>
+      <p>
+        Before 1982, the penny was made of 95% copper and 5% zinc. 
+        In 1982, the composition changed to 97.5% zinc and 2.5% copper because zinc was cheaper.
+      </p>
+    </div>
+    <div class='step paragraph' data-step-seigniorage='zinc'>
+      <p>
+        The price of zinc is quite variable, and it is not uncommon for the metal to experience year-to-year changes in price in regards to supply and demand.
+        What is concerning, however, is that starting in the 2000’s, the price of zinc has absolutely skyrocketed.
+        The cost of zinc is rising because it is a versatile metal with a variety of applications, especially in infrastructure.
+        China has been a core driver of raw materials prices in recent years, especially as it continues to urbanize.
+        In 2016, the Chinese spent $2 trillion on infrastructure, more than the U.S. and Europe combined!
+      </p>
+    </div>
+    <div class='step paragraph' data-step-seigniorage='penny_cost'>
+      <p>
+        This graph presents the cost to mint a penny in the 2000's. Before 2006, a penny <span class="two_cent_green">cost less than one cent</span> to make.
+        Since then, a penny has always <span class="two_cent_red">cost more than itself</span> to make, reaching a high of over two cents.
+      </p>
+    </div>
+    <div class='step paragraph conclusion' data-step-seigniorage='seigniorage'>
+      <p>
+        In isolation, a cent might not seem like a big deal. However, the U.S. Mint produces 13 billion pennies each year.
+        The Mint “sells” the coins to the U.S. Treasury, who pays the full production cost of the coins. 
+        The difference between the face value of the coins and the cost to produce them is known as <i>seigniorage</i>. 
+        Before 2006, seigniorage was a convenient way for the government to make money on pennies, as they <span class="two_cent_green">cost less to produce than they were worth</span>. 
+        But since then, the government has been <span class="two_cent_red">losing millions on the penny each year</span>.
+      </p>
+    </div>
+  </article>
+  <div class='graphic_container' id='graphic_seigniorage'>
+  </div>
+</div>
+
+<div class='scroll_container' id="container_buying_power">
+  <article class="text">
+    <div class='step section_title'>
+      <h2>3. Pennies have no value.</h2>
+    </div>
+    <div class='step paragraph intro' data-step-buying-power='Hersheyʼs chocolate bar'>
+      <p>
+        Price inflation has rendered the penny a worthless unit of currency. The graphic at
+        right shows how the buying power of the penny has sharply decreased over the last
+        100 years.
+      </p>
+    </div>
+    <div class='step paragraph' data-step-buying-power='New York Times'>
+      <p>
+        In 1910, the average wage was 22 cents per hour.
+        The penny had roughly the buying power of today's quarter.
+      </p>
+    </div>
+    <div class='step paragraph' data-step-buying-power='postage stamp'>
+      <p>
+        Americans made less, but their money could go a lot further.
+        Depending on the item, a penny could buy 20, 30, even 100 times more than what it does now.
+      </p>
+    </div>
+    <div class='step paragraph' data-step-buying-power='cup of coffee'>
+      <p>
+        Price inflation alone isn’t a good reason for eliminating small currency. For example, the nickel is another
+        coin with paltry buying power. But getting rid of it would cause prices to be rounded to the nearest dime,
+        which would hurt consumers a lot more.
+      </p>
+    </div>
+    <div class='step paragraph conclusion' data-step-buying-power='loaf of bread'>
+      <p>
+        The penny should be retired because it is too small to be meaningful in
+        today's economy.
+      </p>
+    </div>
+  </article>
+  <div class='graphic_container' id='graphic_buying_power'>
+  </div>
+</div>
+
+<article class="polling">
+    <p>
+        Hopefully, these arguments have convinced you that the penny is doing more harm than good.
+        Yet, there is something warm about the feelings a penny can invoke.
+        Maybe it’s the good luck associated with finding one heads up,
+        or the distant recollection of going to the drugstore and ordering a root beer float with the change in your pocket.
+        From a purely economic perspective, people would be better served by letting them remain on the ground.
+        Yet a resounding majority of Americans choose to pick them up:
+    </p>
+
+    <div class="waffle_container">
+        <div class="waffle_header">
+          Which are you more likely to do when you see a penny on the ground?
+        </div>
+    
+        <div class="waffle">
+          <div class="waffle_chart">
+          </div>
+          <div class="waffle_legend">
+            <div class="waffle_subheader">Each penny represents a poll respondent.</div>
+            <img src="./images/penny_medium.png" alt="penny" id="pick_up" class="penny_legend">
+            <img src="./images/penny_medium.png" alt="penny" id="ground" class="penny_legend">
+            <img src="./images/penny_medium.png" alt="penny" id="not_sure" class="penny_legend">
+            <div id="opinion_pick_up" class="opinion">Pick it up</div>
+            <div id="opinion_ground" class="opinion">Leave it on the ground</div>
+            <div id="opinion_not_sure" class="opinion">Not sure</div>
+            <div id="percent_pick_up" class="percent">71%</div>
+            <div id="percent_ground" class="percent">21%</div>
+            <div id="percent_not_sure" class="percent">8%</div>
+          </div>
+        </div>
+      </div>
+    
+      <p>
+        There is a certain human element about the penny that is far more precious than one cent.
+        But if America is to remain a modern and flexible country, it needs to know when to adapt.
+        The values of frugality, hard-work, and patriotism the penny represents will always live on. 
+      </p>
+
+</article>
+
+<footer class="footer">
+  <div class="socials">
+  <span>Did this make cents?</span>
+  <span class="callout">Tell the world.</span>
+  <div class="fb-share-button" data-href="https://penny.fyi" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpenny.fyi%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Check out my thesis project: Why the U.S. should eliminate the penny, explained with DATA VISUALIZATION!" data-url="https://penny.fyi" data-via="inspectordanno" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  <p>
+    Submitted as part of a thesis for the <a href="https://www.northeastern.edu/visualization/">Master's of Information Design and Visualization at Northeastern University</a>.
+  </p>
+  <p>
+    Thank you so much to all the faculty, staff, and students. I couldn't have done this without you.
+  </p>
+  <p>
+    <a href="./attribution.txt">Data attribution and credits</a>
+  </p>
+</footer>
+
+  <script src="main.0be65a4f3153b21bbcfe.js?3b3576b923a0741c3a47"></script>
+</body>
+
+</html>
