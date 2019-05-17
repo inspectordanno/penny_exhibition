@@ -4,7 +4,7 @@ import {initializeScroll} from './components/scroll';
 import {csv} from 'd3-fetch';
 import drawBarChart from './components/polling_bar_chart';
 import drawWaffleChart from './components/polling_waffle_chart';
-import reset from './components/reset';
+import { resetClick, resetScrollStop } from './components/reset';
 
 let devOrProd = '';
 
@@ -26,5 +26,9 @@ Promise.all(promises).then(data => {
 
 drawBarChart();
 drawWaffleChart();
-reset();
+
+resetClick();
+resetScrollStop();
+
+
 
